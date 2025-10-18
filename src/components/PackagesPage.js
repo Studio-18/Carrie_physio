@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle } from 'lucide-react';
+import { CheckCircleIcon } from './icons';
 
 function PackagesPage({ packages, handlePurchasePackage, setCurrentPage, singleSessionPrice }) {
   return (
@@ -14,11 +14,11 @@ function PackagesPage({ packages, handlePurchasePackage, setCurrentPage, singleS
           <p className="package-subtitle">Pay as you go</p>
           <ul className="package-features">
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>30-minute session</span>
             </li>
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>Book anytime</span>
             </li>
           </ul>
@@ -35,15 +35,15 @@ function PackagesPage({ packages, handlePurchasePackage, setCurrentPage, singleS
           <p className="package-subtitle">Perfect for short-term goals</p>
           <ul className="package-features">
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>5 session credits</span>
             </li>
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>Credits never expire</span>
             </li>
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>Save $25 total</span>
             </li>
           </ul>
@@ -60,15 +60,15 @@ function PackagesPage({ packages, handlePurchasePackage, setCurrentPage, singleS
           <p className="package-subtitle">Best value!</p>
           <ul className="package-features">
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>10 session credits</span>
             </li>
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>Credits never expire</span>
             </li>
             <li className="package-feature">
-              <CheckCircle size={20} />
+              <CheckCircleIcon size={20} />
               <span>Save $100 total</span>
             </li>
           </ul>
