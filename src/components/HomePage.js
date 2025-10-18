@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, Clock, Package } from 'lucide-react';
+import { UserIcon, ClockIcon, PackageIcon } from './icons';
 
 function HomePage({ setCurrentPage }) {
   return (
@@ -11,17 +11,17 @@ function HomePage({ setCurrentPage }) {
 
       <div className="feature-grid">
         <div className="feature-card">
-          <User className="feature-icon" size={48} />
+          <UserIcon className="feature-icon" size={48} />
           <h3 className="feature-title">Expert Care</h3>
           <p className="feature-text">Over 15 years of experience</p>
         </div>
         <div className="feature-card">
-          <Clock className="feature-icon" size={48} />
+          <ClockIcon className="feature-icon" size={48} />
           <h3 className="feature-title">Flexible Scheduling</h3>
           <p className="feature-text">30-minute convenient sessions</p>
         </div>
         <div className="feature-card">
-          <Package className="feature-icon" size={48} />
+          <PackageIcon className="feature-icon" size={48} />
           <h3 className="feature-title">Package Deals</h3>
           <p className="feature-text">Save with 5 and 10 session packages</p>
         </div>

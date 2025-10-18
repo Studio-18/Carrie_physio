@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle, X } from 'lucide-react';
+import { CheckCircleIcon, XIcon } from './icons';
 
 function Modal({
   showModal,
@@ -25,7 +25,7 @@ function Modal({
             <div className="modal-header">
               <h3 className="modal-title">Purchase Package</h3>
               <button onClick={() => setShowModal(false)} className="modal-close">
-                <X size={24} />
+                <XIcon size={24} />
               </button>
             </div>
             <div className="modal-summary">
@@ -51,7 +51,7 @@ function Modal({
 
         {modalType === 'confirmation' && (
           <div className="modal-confirmation">
-            <CheckCircle className="modal-icon" size={64} />
+            <CheckCircleIcon className="modal-icon" size={64} />
             <h3 className="modal-confirmation-title">Success!</h3>
             <p className="modal-confirmation-text">
               Package purchased! {packages[selectedPackage]?.credits} credits added to your account.
@@ -61,7 +61,7 @@ function Modal({
 
         {modalType === 'booking-confirmation' && (
           <div className="modal-confirmation">
-            <CheckCircle className="modal-icon" size={64} />
+            <CheckCircleIcon className="modal-icon" size={64} />
             <h3 className="modal-confirmation-title">Booking Confirmed!</h3>
             <p className="modal-confirmation-text">
               Your session is booked for {formatDate(selectedDate)} at {selectedTime}

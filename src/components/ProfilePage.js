@@ -1,5 +1,5 @@
 import React from 'react';
-import { User } from 'lucide-react';
+import { UserIcon } from './icons';
 
 function ProfilePage() {
   return (
@@ -7,7 +7,7 @@ function ProfilePage() {
       <div className="profile-card">
         <div className="profile-header">
           <div className="profile-avatar">
-            <User size={100} />
+            <UserIcon size={100} />
           </div>
           <div className="profile-info">
             <h2 className="profile-name">Carrie Haber</h2>
